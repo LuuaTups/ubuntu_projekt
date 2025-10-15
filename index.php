@@ -4,16 +4,14 @@
   <meta charset="UTF-8">
 </head>
 <body style="font-family: monospace; background-color: #111; color: #0f0;">
-<h2>Driim OÜ logisüsteem</h2>
+<h2>logisüsteem</h2>
 
-<h3>Uuenduste logi (update_check.log)</h3>
-<pre><?php @readfile('/var/log/driimou/update_check.log'); ?></pre>
+<h3>ngrok Logs</h3>
+<pre><?php @readfile('/var/log/ngrok.log'); ?></pre>
 
-<h3>Backup logi (backup.log)</h3>
-<pre><?php @readfile('/var/log/driimou/backup.log'); ?></pre>
-
-<h3>GitHub logi (git_backup.log)</h3>
-<pre><?php @readfile('/var/log/driimou/git_backup.log'); ?></pre>
+<h3>System Updates log</h3>
+<pre><?php @readfile('/var/log/system_updates_logs.log'); ?></pre>
 
 </body>
 </html>
+ ngrok.log  system_updates_logs.logsystem_updates_logs.log
